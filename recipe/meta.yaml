@@ -1,5 +1,5 @@
 {% set name = "pysimplegui" %}
-{% set version = "4.4.0" %}
+{% set version = "4.4.1" %}
 {% set styledName = "PySimpleGUI" %}
 
 package:
