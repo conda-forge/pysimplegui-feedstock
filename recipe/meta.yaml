@@ -7,7 +7,7 @@ package:
   version: "{{ version }}"
 
 source:
-  url: "https://files.pythonhosted.org/packages/b2/d0/c20c020af7d2e61ab61ba2b2c9299b5eda75ab5615498733f1a04d8996c1/PySimpleGUI-{{ version }}.tar.gz"
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ styledName }}-{{ version }}.tar.gz
   sha256: "91cf79070de893439cedb4d6689fc0d768f30d3b6e289634e5f81cd5caf25ff2"
 
 build:
