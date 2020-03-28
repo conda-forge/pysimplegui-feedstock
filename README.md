@@ -117,5 +117,7 @@ Feedstock Maintainers
 =====================
 
 * [@agcopenhaver](https://github.com/agcopenhaver/)
+* [@oblute](https://github.com/oblute/)
+* [@rluria14](https://github.com/rluria14/)
 * [@silun](https://github.com/silun/)
 
