@@ -1,5 +1,5 @@
 {% set name = "pysimplegui" %}
-{% set version = "4.30.0" %}
+{% set version = "4.31.0" %}
 {% set styledName = "PySimpleGUI" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ styledName }}-{{ version }}.tar.gz
-  sha256: 9d8e6b8c4996c2478191b66559f00ef25f366e17ed709b5f6aa6a35a8f490e4f
+  sha256: 302441eb1342bda17612ad01326cb86cc5c9793d0299362c103e18b461908a2a
 
 build:
   noarch: python
