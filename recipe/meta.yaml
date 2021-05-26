@@ -1,5 +1,5 @@
 {% set name = "pysimplegui" %}
-{% set version = "4.40.0" %}
+{% set version = "4.43.0" %}
 {% set styledName = "PySimpleGUI" %}
 
 package:
@@ -8,19 +8,19 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ styledName }}-{{ version }}.tar.gz
-  sha256: 5813a05f0da0fac1b56ec289d105b51841cc97bea8aca12d0896011969bfbc09
+  sha256: eecce0e88d42798d2aa6839c9d4266070b772182bc33908a67500e3789cd42ed
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.4
   run:
-    - python
+    - python >=3.4
 
 test:
   imports:
@@ -28,7 +28,7 @@ test:
 
 about:
   home: https://github.com/PySimpleGUI/PySimpleGUI
-  license: LGPL-3.0
+  license: LGPL-3.0-or-later
   license_family: LGPL
   license_file: license.txt
   summary: GUI SDK Launched in 2018 Actively developed and supported. Super-simple to create custom GUI's.  Python 2.7 & 3 Support. 100 Demo programs & Cookbook for rapid start. Extensive documentation. Examples using Machine Learning(GUI, OpenCV Integration,  Chatterbot), Rainmeter Style Floating Desktop Widgets, Matplotlib
