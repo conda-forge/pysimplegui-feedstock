@@ -3,7 +3,7 @@ About pysimplegui
 
 Home: https://github.com/PySimpleGUI/PySimpleGUI
 
-Package license: LGPL-3.0
+Package license: LGPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysimplegui-feedstock/blob/master/LICENSE.txt)
 
