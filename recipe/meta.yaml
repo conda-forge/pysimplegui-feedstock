@@ -11,6 +11,8 @@ source:
   sha256: a53846e81056c72f7c44451a7bdd720590ca2bc43565cd4f1e9a16ee785d980c
 
 build:
+  # License doesn't allow redistribution
+  skip: true
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
